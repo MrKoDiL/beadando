@@ -1,0 +1,59 @@
+body {
+	background-color:lightblue;
+	margin:auto;
+	max-width: 900px;
+}
+
+.menu-option {
+	border:2px solid black;
+	border-radius:3px;
+	display:inline-block;
+	margin:auto;
+	padding:3px;
+	background-color: #42c5f4;
+}
+
+
+.menu-selected {
+	border:2px solid blue;
+	border-radius:3px;
+	display:inline-block;
+	margin:auto;
+	padding:3px;
+	background-color:#42b3f4;
+	
+}
+
+nav {
+	
+	border:2px solid green;
+}
+
+#wrapper {
+	margin:auto;
+	width=500px;
+}
+a {
+	color:#e1e7ea;
+}
+
+a:visited {
+	
+	color:#e1e7ea;
+}
+
+a:hover {
+	
+	color:red;
+}
+
+#content {
+	border:2px solid red;
+	
+	
+}
+
+footer {
+	
+	border:2px solid yellow;
+}
