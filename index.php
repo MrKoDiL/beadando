@@ -16,17 +16,17 @@
 		<div id="wrapper">
 		
 		<header>
-		HEADER
+		Kérlek jelentkezz be az oldalra vagy regisztrálj! ->
 		<?php
 			if(!isset($_GET["page"])) {
 				HEADER("Location: index.php?page=fooldal");
 			}
 			if(!isset($_SESSION["email"])) 
 			{
-				echo "<a href='index.php?page=login'>Bejelentkezés</a>";
+				echo "<a href='index.php?page=login'>Bejelentkezés/Regisztráció</a>";
 				
 			}
-			else echo "Bejelentkezett: " . $_SESSION["firstname"] . $_SESSION["lastname"] . "(". $_SESSION["email"] . ")" . "<a href=logout.php> Kijelentkezés</a>";
+			else echo "Bejelentkezett: " . $_SESSION["firstname"] ." ". $_SESSION["lastname"] . "(". $_SESSION["email"] . ")" . "<a href=logout.php> Kijelentkezés</a>";
 		?>
 		</header>
 		

@@ -35,9 +35,9 @@
 	<body>
 
 		<form method="post" action="">
-			E-mail: <input type="email" name="email" id="email"> <br>
-			Tárgy: <input type="text" name="subject" id="subject" maxlength="20"> <br>
-			Tartalom: <textarea name="content" id="content" maxlength="500"></textarea> <br>
+			E-mail: <input type="email" name="email" id="email" placeholder="valami@gmail.com"> <br>
+			Tárgy: <input type="text" name="subject" id="subject" maxlength="20" placeholder="Ide írd a tárgyat!"> <br>
+			Tartalom: <textarea name="content" id="content" maxlength="500" placeholder="Ide írd az üzeneted!"></textarea> <br>
 			<input type="submit" value="Küldés">
 		</form>
 		

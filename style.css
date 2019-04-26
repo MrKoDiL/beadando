@@ -1,5 +1,5 @@
 body {
-	background-color:lightblue;
+	background-color:white;
 	margin:auto;
 	max-width: 900px;
 }
@@ -26,7 +26,14 @@ body {
 
 nav {
 	
-	border:2px solid green;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	text-align: center;
+	background-color: lightblue;
+	border-radius: 5px;
+	padding: 10px;
+	max-width: 1200px;
 }
 
 #wrapper {
@@ -34,12 +41,12 @@ nav {
 	width=500px;
 }
 a {
-	color:#e1e7ea;
+	color:#d5dee5;
 }
 
 a:visited {
 	
-	color:#e1e7ea;
+	color:d5dee5;
 }
 
 a:hover {
@@ -48,12 +55,43 @@ a:hover {
 }
 
 #content {
-	border:2px solid red;
-	
-	
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	text-align: left;
+	background-color: lightblue;
+	padding: 10px;
+	border-radius: 5px;
+	margin-top: 10px;
 }
+
+header{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	text-align: center;
+	background-color: #42b3f4;
+	border-radius: 5px;
+	letter-spacing: 2px;
+	margin-top: 10px;
+
+}
+
 
 footer {
 	
-	border:2px solid yellow;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	text-align: center;
+	background-color: #42b3f4;
+	border-radius: 5px;
+	letter-spacing: 2px;
+	margin-top: 10px;
+}
+
+img {
+	max-width:150px;
+	max-height:150px;
+	border:2px solid black;
 }

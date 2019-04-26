@@ -64,9 +64,9 @@
 	<body>
 		
 		<form method="post" action="">
-			E-mail: <input type="email" name="email" id="email"> <br>
-			Családnév: <input type="textbox" name="firstname" id="firstname"> <br>
-			Keresztnév: <input type="textbox" name="lastname" id="lastname"> <br>
+			E-mail: <input type="email" name="email" id="email" placeholder="valami@gmail.com"> <br>
+			Családnév: <input type="textbox" name="firstname" id="firstname" placeholder="Kiss"> <br>
+			Keresztnév: <input type="textbox" name="lastname" id="lastname" placeholder="Sándor"> <br>
 			Jelszó: <input type="password" name="password" id="password"> <br>
 			<input type="submit" value="Regisztráció">
 			<input type="hidden" value="register" id="posttype" name="posttype">
